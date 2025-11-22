@@ -57,7 +57,7 @@ nav, p, section, article {
     bottom: 20px;
     right: 10px;
     background-color: var(--accent2-color);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     opacity: 0.8;
 }
 
