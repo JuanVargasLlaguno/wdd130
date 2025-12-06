@@ -1,0 +1,65 @@
+* {
+    max-width: 800px;
+}
+
+
+main{
+    margin: auto;
+}
+
+h1{
+    color: darkblue;
+}
+
+form {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.exampleCode {
+    background-color: rgb(53, 52, 52);
+    color: white;
+    padding: 10px;
+    margin-right: 35rem;
+    margin-top: 1rem;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 5rem;
+}
+
+label, input, textarea, select {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.q2, .q1 {
+    margin-right: 20rem;
+    padding: 10px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-top: 10px;
+    padding-bottom:10px
+}
+
+.q4 {
+    margin-right: 40rem;
+    padding: 10px;
+    font-size: large;
+}
+
+select {
+    margin-right: 30rem;
+    padding: 10px;
+    font-size: large; 
+}
