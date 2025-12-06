@@ -178,3 +178,86 @@ footer nav{
 footer img {
     width: 50px;
 }
+
+.contacContainer {
+    display:flex;
+    justify-content: center;
+}
+.contactInfo {
+    text-align: center;
+}
+
+.contactInfo h1, .contactInfo p{
+    margin: 0px
+}
+
+.interactive{
+    display: flex;
+}
+
+.map, .form {
+    flex: 1;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.columnForm {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(5,1fr);
+    align-items: center;
+    row-gap: 10px;
+}
+
+.radioSpan {
+    grid-row: span 3;
+    display: flex;
+    flex-direction: column;   
+}
+
+legend {
+    grid-row: span 3;
+    align-self: center;
+    white-space: normal;
+    max-width: 120px;
+}
+
+.fullspan {
+    grid-column: span 2;
+}
+
+.columnForm input {
+    padding: 5px;
+}
+
+button{
+    padding: 5px;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    max-width: 800px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.employees h2 {
+    display: grid;
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+.employees figure {
+    display: grid;
+    
+}
+.employees img {
+    width: auto;
+    height: 300px;
+    margin: 1rem;
+}
