@@ -29,6 +29,7 @@ header {
     justify-self: end;
     align-items: center;
     background-color: var(--primary-color);
+    color: blue
 }
 
 .links {
@@ -233,6 +234,10 @@ legend {
 }
 
 button{
+    padding: 5px;
+}
+
+textarea{
     padding: 5px;
 }
 
