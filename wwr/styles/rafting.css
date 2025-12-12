@@ -377,3 +377,105 @@ fieldset.fullspan {
     grid-column: 2;
     padding: 5px;
 }
+
+
+/* Trips page */
+
+/* Title and description */
+
+.trips-title h1 {
+    text-align: center;
+}
+
+.trips-title p{
+    border: 3px groove var(--secondary-color);
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+/* Table */
+
+.table-trips {
+    border: 2px solid var(--primary-color);
+    background-color: var(--accent2-color);
+    padding: 10px 5px;
+    border-collapse: collapse;
+}
+
+.table-trips thead {
+    background-color: var(--accent1-color);
+    color: #fff;
+    margin: 5px;
+}
+
+.table-trips th, td {
+    border-right: 1px solid var(--primary-color);
+    padding: 15px 10px;
+}
+
+/* Popular Trips */
+
+.popular {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    
+}
+
+.popular h2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    max-width: 800px;
+    margin-bottom: 15px;
+}
+
+/* reset the margin to make it take less space */
+.popular figure, .popular figcaption,
+.popular p {
+    margin: 0;
+}
+
+.popular figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.popular-big{
+    grid-column: 1/4;
+    border-top: 1px solid var(--primary-color);
+    box-shadow: 0 -4px 10px -7px var(--accent1-color);
+                
+}
+
+.popular-small{
+    width: 200px;
+    height: auto;
+}
+
+/* Contact us button */
+
+.contact-button {
+    display: grid;
+    grid-template-columns: 1fr 150px 1fr;
+}
+
+.contact-button h2 {
+    grid-column: 1/4;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.contact-button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    grid-column: 2 / 3;
+    text-align: center;
+}
