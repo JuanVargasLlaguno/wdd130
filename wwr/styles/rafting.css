@@ -392,6 +392,8 @@ fieldset.fullspan {
     background-color: var(--accent2-color);
     color: var(--secondary-color);
     border-radius: 5px;
+    font-size: 14pt;
+    
 }
 
 /* Table */
